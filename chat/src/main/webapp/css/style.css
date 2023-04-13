@@ -1,0 +1,34 @@
+@charset "UTF-8";
+* { box-sizing : border-box }
+.chat-container {
+	width : 800px;
+	height : 500px;
+	padding : 40px;
+	margin : 50px auto;
+}
+.text-center {
+	text-align : center;
+}
+.chatin {
+	text-align : center;
+	margin-top : 40px;
+}
+.chat-container input {
+	padding : 5px 15px;
+	border : 1px solid #ddd;
+	border-radius : 5px;
+	font-size : 18px;
+}
+.container {
+	width : 500px;
+	margin-left : auto;
+	margin-right : auto;
+	background : url(../images/img.jpg) no-repeat;
+	object-fit : cover; 
+	opacity : 0.5;
+}
+.iframe {
+	width : 500px;
+	height : 500px;
+	border : 0;
+}
